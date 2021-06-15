@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+        
+<title>Atividade 8</title>
+        
+<meta charset="UTF-8"/>
+        
+<link rel="stylesheet" type="text/css" href="estiloatividadeoito.css"></link>
+<script src="functions.js"></script>
+    
+</head>
+    
+<body>
+        
+<h2>Atividade 8</h2>
+        
+<p id="json"> </p>
+
+        
+<h2>Formulário - POST</h2>
+        
+<form id="postForm">
+        
+<label for="mensagem">Raça:</label>
+        
+<input type="text" id ="mensagem" name="raça"/>
+
+<label for="mensagem">Nome:</label>
+        
+<input type="text" id ="mensagem" name="nome"/>
+
+<label for="mensagem">Idade:</label>
+        
+<input type="text" id ="mensagem" name="idade"/>
+
+<label for="mensagem">Sexo:</label>
+        
+<input type="text" id ="mensagem" name="sexo"/>
+        
+<button type="submit" onclick="return submitPost()">Submit</button>
+        
+</form>
+
+        
+<h2>Formulário - PUT</h2>
+        
+<form id="putForm">
+
+<label>Id:<input type="text" name="id"/></label> 
+        
+<label for="mensagem">Raça:</label>
+        
+<input type="text" id ="mensagem" name="raça"/>
+    
+<label for="mensagem">Nome:</label>
+            
+<input type="text" id ="mensagem" name="nome"/>
+    
+<label for="mensagem">Idade:</label>
+            
+<input type="text" id ="mensagem" name="idade"/>
+    
+<label for="mensagem">Sexo:</label>
+            
+<input type="text" id ="mensagem" name="sexo"/>
+            
+<button type="submit" onclick="return submitPut()">Submit</button>
+         
+</form>
+         
+<h2>Formulário - DELETE</h2>
+         
+<form id="deleteForm">
+         
+<label>Id:<input type="text" name="id"/></label>        
+          
+<button type="submit" onclick="return submitDelete()">Submit</button>
+          
+</form>
+        
+</body>
+
+</html>
